@@ -43,6 +43,7 @@ class CalculatorButton extends StatelessWidget {
   }
 }
 
+//A function that returns a widget, specifically CalculatorButton
 Widget getButton({
   required String text,
   required VoidCallback onTap,
