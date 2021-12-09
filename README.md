@@ -1,6 +1,11 @@
 # calculator
 
 A new Flutter project.
+## Screenshot
+<div align="center">
+    <img src="/ss/ss1.png" width="400px" height="750" /> 
+    <img src="/ss/ss2.png" width="400px" height="750" /> 
+</div>
 
 ## Getting Started
 
