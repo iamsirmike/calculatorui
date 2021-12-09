@@ -1,6 +1,6 @@
 # calculator
 
-A calculator app that supports basic calculations, currently supports calculation of two operands at ago.
+A calculator app that supports basic calculations, currently supports calculation of two operands at a go. 
 
 ## Screenshot
 <div align="center">
