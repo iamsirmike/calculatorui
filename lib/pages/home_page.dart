@@ -85,7 +85,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                     Text(
-                      calculation.result.toString(),
+                      "${calculation.result}",
                       style: TextStyle(
                         fontSize: 54,
                         fontWeight: FontWeight.w700,

@@ -9,14 +9,14 @@ abstract class Calculation {
 }
 
 class CalculationImpl extends ChangeNotifier implements Calculation {
-  int _result = 0;
-  int _firstOperand = 0;
-  int _secondOperand = 0;
+  num _result = 0;
+  num _firstOperand = 0;
+  num _secondOperand = 0;
   String? _operator;
 
-  int get result => _result;
-  int get firstOperand => _firstOperand;
-  int get secondOperand => _secondOperand;
+  num get result => _result;
+  num get firstOperand => _firstOperand;
+  num get secondOperand => _secondOperand;
   String? get operator => _operator;
 
   @override
@@ -73,7 +73,8 @@ class CalculationImpl extends ChangeNotifier implements Calculation {
         if (_secondOperand == 0) {
           return;
         }
-        _result = _firstOperand ~/ _secondOperand;
+      _result = _firstOperand / _secondOperand;
+      
         notifyListeners();
         break;
     }
