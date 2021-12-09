@@ -1,6 +1,7 @@
 # calculator
 
-A new Flutter project.
+A calculator app that supports basic calculations, currently supports calculation of two operands at a go. 
+
 ## Screenshot
 <div align="center">
     <img src="/ss/ss1.png" width="400px" height="750" /> 
